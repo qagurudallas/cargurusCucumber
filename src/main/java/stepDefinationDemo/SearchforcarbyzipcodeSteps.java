@@ -19,7 +19,7 @@ public class SearchforcarbyzipcodeSteps {
 
 	@Given("^User is on cargurus page$")
 	public void user_is_on_cargurs_page() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\seleniumdrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/cargurusCucumber/chromedriver");
 		driver = new ChromeDriver();
 		driver.navigate().to("http://www.cargurus.com");
 
